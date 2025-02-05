@@ -26,7 +26,7 @@ export default function Header() {
                         <li><a className="text-2xl"  >Contact Us</a></li>
                     </ul>
                 </div>
-                <a href="/" className="btn btn-ghost text-2xl sm:text-3xl">TravelsWheel</a>
+                <Link to={'/'}><a  className="btn btn-ghost text-2xl sm:text-3xl">TravelsWheel</a></Link>
             </div>
             <div className="navbar-center hidden  lg:flex ">
                 <ul className="menu text-2xl gap-5 menu-horizontal px-1">

@@ -37,7 +37,7 @@ export default function Landingpage() {
                     <Link
                         to={'/bookingpage'}
                         
-                    ><button className=" rounded-full mt-12 text-white h-[50px] px-4 sm:w-[45%] text-[20px]  font-outfit font-bold bg-[#3084F2] hover:bg-blue-600 hover:scale-105">Book Your First Ride</button></Link>
+                    ><button className=" rounded-full mt-12 text-white h-[50px] px-4 sm:w-[45%] text-[20px]  font-outfit font-bold bg-orange-500 hover:bg-blue-600 hover:scale-105">Book Your First Ride</button></Link>
 
                 </div>
             </div>

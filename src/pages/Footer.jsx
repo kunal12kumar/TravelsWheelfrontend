@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function Footer() {
@@ -10,9 +11,9 @@ export default function Footer() {
                     Discover Our Exceptional Services
                 </h2>
                 <p className="mt-2 text-sm">Explore Our Wide Range of Transportation Options</p>
-                <button className="mt-6 px-6 py-3 bg-white text-gray-700 font-semibold rounded-lg shadow-md">
+                <Link to={'/bookingpage'}><button className="mt-6 px-6 py-3 bg-white text-gray-700 font-semibold rounded-lg shadow-md">
                     Get Started
-                </button>
+                </button></Link>
             </div>
 
             <div className="mb-6 text-black bg-gray-100  md:mb-0">

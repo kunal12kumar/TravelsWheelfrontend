@@ -31,7 +31,7 @@ const vehicles = [
 
 const VehicleSelection = () => {
   return (
-    <div className=" max-w-full  min-h-screen  pb-6">
+    <div className=" max-w-full   pb-6">
       <h2 className="text-4xl text-black flex justify-center font-bold  mb-10 my-20">Choose Your Vehicle</h2>
       <div className="grid grid-cols-1 w-[90%]  mx-auto md:grid-cols-3 gap-6">
         {vehicles.map((vehicle, index) => (

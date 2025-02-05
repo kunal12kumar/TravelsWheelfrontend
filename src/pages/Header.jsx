@@ -14,7 +14,7 @@ export default function Header() {
                     </div>
                     <ul
                         tabIndex={0}
-                        class="menu menu-sm dropdown-content  bg-orange-500 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        class="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <Link to={'/'}><li><a className="text-2xl"  >Home</a></li></Link>
                         <li>
                             <a  className="text-2xl"  >About Us</a>
@@ -47,7 +47,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className="navbar-end ">
-                <a className="btn mr-6 text-2xl bg-orange-500 ">Sign Up</a>
+                <a className="btn sm:mr-6 text-2xl bg-orange-500 ">Sign Up</a>
             </div>
         </div>
     )

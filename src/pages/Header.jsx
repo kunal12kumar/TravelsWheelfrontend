@@ -14,7 +14,7 @@ export default function Header() {
                     </div>
                     <ul
                         tabIndex={0}
-                        class="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        class="menu menu-sm dropdown-content  bg-black rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <Link to={'/'}><li><a className="text-2xl"  >Home</a></li></Link>
                         <li>
                             <a  className="text-2xl"  >About Us</a>

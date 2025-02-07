@@ -47,7 +47,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className="navbar-end ">
-                <a className="btn sm:mr-6 text-2xl bg-orange-500 ">Sign Up</a>
+                <Link to={'/signup'}><a className="btn sm:mr-6 text-2xl bg-orange-500 ">Sign Up</a></Link>
             </div>
         </div>
     )

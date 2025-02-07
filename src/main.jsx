@@ -5,6 +5,7 @@ import './index.css'
 import Home from "./pages/Home";
 import BookingConfirmation from "./pages/BookingConfirmation";
 import BookingForm from "./pages/BookingForm";
+import Signup from "./pages/UserSignup";
 
 
 const allrouter = createBrowserRouter([
@@ -19,6 +20,10 @@ const allrouter = createBrowserRouter([
   {
     path:'/bookingpage',
     element:<BookingForm></BookingForm>
+  },
+  {
+    path:'/signup',
+    element:<Signup></Signup>
   }
 ])
 

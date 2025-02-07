@@ -6,6 +6,9 @@ import Home from "./pages/Home";
 import BookingConfirmation from "./pages/BookingConfirmation";
 import BookingForm from "./pages/BookingForm";
 import Signup from "./pages/UserSignup";
+import SignIn from "./pages/SignIn";
+import ForgotPassword from "./pages/ForgotPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 
 const allrouter = createBrowserRouter([
@@ -24,6 +27,18 @@ const allrouter = createBrowserRouter([
   {
     path:'/signup',
     element:<Signup></Signup>
+  },
+  {
+    path:'/login',
+    element:<SignIn></SignIn>
+  },
+  {
+    path:'/forgotpassword',
+    element:<ForgotPassword></ForgotPassword>
+  },
+  {
+    path:'resetpassword/:token',
+    element:<ResetPassword></ResetPassword>
   }
 ])
 

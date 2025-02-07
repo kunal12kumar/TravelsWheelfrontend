@@ -23,7 +23,7 @@ export default function Header() {
                                 <li><a></a></li>
                             </ul> */}
                         </li>
-                        <li><a className="text-2xl"  >Contact Us</a></li>
+                        <Link to={'/contactus'}><li><a className="text-2xl"  >Contact Us</a></li></Link>
                     </ul>
                 </div>
                 <Link to={'/'}><a  className="btn btn-ghost text-2xl sm:text-3xl">TravelsWheel</a></Link>
@@ -42,7 +42,7 @@ export default function Header() {
                         </details> */}
                         <a>Book Now</a>
                     </li>
-                    <li><a>Contact Us</a></li>
+                    <Link to={'/contactus'}><li><a>Contact Us</a></li></Link>
                     <li><a>About Us</a></li>
                 </ul>
             </div>

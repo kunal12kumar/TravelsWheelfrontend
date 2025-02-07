@@ -9,6 +9,7 @@ import Signup from "./pages/UserSignup";
 import SignIn from "./pages/SignIn";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
+import ContactUs from "./pages/Conctactus";
 
 
 const allrouter = createBrowserRouter([
@@ -39,6 +40,10 @@ const allrouter = createBrowserRouter([
   {
     path:'resetpassword/:token',
     element:<ResetPassword></ResetPassword>
+  },
+  {
+    path:'/contactus',
+    element:<ContactUs></ContactUs>
   }
 ])
 

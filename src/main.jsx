@@ -10,6 +10,7 @@ import SignIn from "./pages/SignIn";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import ContactUs from "./pages/Conctactus";
+import AboutUs from "./pages/Aboutus";
 
 
 const allrouter = createBrowserRouter([
@@ -44,6 +45,11 @@ const allrouter = createBrowserRouter([
   {
     path:'/contactus',
     element:<ContactUs></ContactUs>
+  },
+  {
+    path:'/aboutus',
+    element:<AboutUs></AboutUs>
+
   }
 ])
 

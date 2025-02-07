@@ -6,6 +6,8 @@ export default function Header() {
 
     return (
 
+        
+
         <div className="navbar bg-orange-500 t shadow-sm fixed z-[5]">
             <div className="navbar-start">
                 <div className="dropdown">
@@ -16,13 +18,13 @@ export default function Header() {
                         tabIndex={0}
                         class="menu menu-sm dropdown-content  bg-black rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <Link to={'/'}><li><a className="text-2xl"  >Home</a></li></Link>
-                        <li>
+                        <Link to={'/aboutus'}><li>
                             <a  className="text-2xl"  >About Us</a>
                             {/* <ul className="p-2">
                                 <li><a>About Us</a></li>
                                 <li><a></a></li>
                             </ul> */}
-                        </li>
+                        </li></Link>
                         <Link to={'/contactus'}><li><a className="text-2xl"  >Contact Us</a></li></Link>
                     </ul>
                 </div>
@@ -43,7 +45,7 @@ export default function Header() {
                         <a>Book Now</a>
                     </li>
                     <Link to={'/contactus'}><li><a>Contact Us</a></li></Link>
-                    <li><a>About Us</a></li>
+                    <Link to={'/aboutus'}><li><a>About Us</a></li></Link>
                 </ul>
             </div>
             <div className="navbar-end ">

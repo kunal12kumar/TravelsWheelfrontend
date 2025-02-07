@@ -46,6 +46,7 @@ export default function Header() {
                     </li>
                     <Link to={'/contactus'}><li><a>Contact Us</a></li></Link>
                     <Link to={'/aboutus'}><li><a>About Us</a></li></Link>
+                    <Link to={'/adminpanel'}><li><a>Admin Panel</a></li></Link>
                 </ul>
             </div>
             <div className="navbar-end ">

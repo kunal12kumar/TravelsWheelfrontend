@@ -11,6 +11,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import ContactUs from "./pages/Conctactus";
 import AboutUs from "./pages/Aboutus";
+import AdminDashboard from "./pages/AdminPanel";
 
 
 const allrouter = createBrowserRouter([
@@ -50,6 +51,10 @@ const allrouter = createBrowserRouter([
     path:'/aboutus',
     element:<AboutUs></AboutUs>
 
+  },
+  {
+    path:'/adminpanel',
+    element:<AdminDashboard></AdminDashboard>
   }
 ])
 

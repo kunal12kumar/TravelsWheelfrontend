@@ -12,7 +12,7 @@ export default function ForgotPassword() {
     e.preventDefault();
     const API_BASE_URL = import.meta.env.VITE_API_URL
     try {
-      const response = await axios.post(`${API_BASE_URL}/Rforgotresetpassword/forgotpassword`, { email });
+      const response = await axios.post(`${API_BASE_URL}/Rforgotpassword/forgotpassword`, { email });
       setMessage(response.data.message);
       toast.success(response.data.message)
     } catch (error) {

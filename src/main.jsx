@@ -11,7 +11,7 @@ import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import ContactUs from "./pages/Conctactus";
 import AboutUs from "./pages/Aboutus";
-import AdminDashboard from "./pages/AdminPanel";
+import AdminDashboard from "./pages/AdminFolder/AdminPanel";
 
 
 const allrouter = createBrowserRouter([
@@ -55,6 +55,9 @@ const allrouter = createBrowserRouter([
   {
     path:'/adminpanel',
     element:<AdminDashboard></AdminDashboard>
+  },
+  {
+    
   }
 ])
 

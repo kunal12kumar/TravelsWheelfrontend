@@ -1,7 +1,9 @@
+// In this we are mangaing cardetails Here admin update the cardetails as he want 
 import React from "react";
 
 import { motion } from "framer-motion";
 import { FaCar, FaUser, FaClipboardList } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AdminDashboard = () => {
   return (
@@ -15,9 +17,9 @@ const AdminDashboard = () => {
       >
         <h2 className="text-2xl font-bold mb-6">Admin Panel</h2>
         <ul className="space-y-4">
-          <li className="flex items-center gap-2 text-lg cursor-pointer hover:text-gray-300">
+          <Link to={'/managecardetails'}><li className="flex items-center gap-2 text-lg cursor-pointer hover:text-gray-300">
             <FaCar /> Manage Vehicles
-          </li>
+          </li></Link>
           <li className="flex items-center gap-2 text-lg cursor-pointer hover:text-gray-300">
             <FaClipboardList /> Manage Bookings
           </li>

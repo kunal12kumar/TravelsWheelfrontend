@@ -12,6 +12,7 @@ import ResetPassword from "./pages/ResetPassword";
 import ContactUs from "./pages/Conctactus";
 import AboutUs from "./pages/Aboutus";
 import AdminDashboard from "./pages/AdminFolder/AdminPanel";
+import CarForm from "./pages/AdminFolder/ManageVehicles";
 
 
 const allrouter = createBrowserRouter([
@@ -57,6 +58,8 @@ const allrouter = createBrowserRouter([
     element:<AdminDashboard></AdminDashboard>
   },
   {
+    path:'/managecardetails',
+    element:<CarForm></CarForm>
     
   }
 ])
